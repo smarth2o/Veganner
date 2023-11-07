@@ -6,45 +6,6 @@
 
 ## 1. 프로젝트 소개
 
-### 사용한 데이터 셋
-
-**[메인, 소개페이지에서 사용할 육류, 자동차, 온실가스 관련 데이터 세트]**
-
-- [FoodEmissions](https://www.kaggle.com/datasets/amandaroseknudsen/foodproductemissions)
-    - 음식 종류별 온실가스 배출량
-    - 육류별 자동차 주행거리
-- [GLEAM livestock emissions](https://www.kaggle.com/datasets/amandaroseknudsen/gleamlivestockemissions)
-    - 축산업에서 온실가스 종류별 배출량
-- [현대자동차 그랜저 CO2 배출량](https://bpms.kemco.or.kr:444/transport_2012/car/car_choice.aspx?serorigin=1&serecode=100&serfuel=&sergear=&sercartype=&sergrade=&sertypegb=&sertab=&otype=&ptype=&f=system&sermileage1=&sermileage2=&serco21=&serco22=&seramt1=&seramt2=&sermname=&serstyear=#search_top)
-- [한국 연도별 육류 소비량](http://www.kmta.or.kr/kr/data/stats_spend.php)
-    - 연도별 / 종류별 전체소비량
-    - 연도별 / 종류별 1인당소비량
-
-**[비건 식당 지도 데이터세트]**
-
-- [서울시 채식전문/가능 식당](https://www.data.go.kr/data/15054128/fileData.do)
-    - 식당이름, 장소, 채식가능/채식전문, 업종(한식, 중식, 양식… etc)
-
-### 기술스택
-
-**데이터분석**
-
-- jupyter notebook에서 python, numpy, matplotlib 등 사용해 데이터 분석
-
-**프론트엔드**
-
-- React, TypeScript, Recoil, styled-components
-- Chart.js(react-chartjs-2) 라이브러리 사용해 데이터 시각화
-- 카카오맵 API 사용하여 지도 구현
-
-**백엔드**
-
-- Django, Django REST Framework, dj_rest_auth
-- MySQL(ERD Cloud 사용하여 설계,Oracle Cloud 사용하여 구축)
-<br /><br />
-
-## 2. 프로젝트 목표
-
 ### 인사이트
 
 데이터 분석 결과 온실가스 배출량은 계속해서 증가하는 추세였습니다.<br />
@@ -68,7 +29,47 @@
 Veganner는 일상에서 육류 식단 대신 채식을 실천하면, 환경보호에 동참할 수 있다는 가치를 전달하고자 합니다.
 <br /><br />
 
-## 3. 프로젝트 기능 설명
+## 2. 사용한 데이터 셋
+
+**[메인, 소개페이지에서 사용할 육류, 자동차, 온실가스 관련 데이터 세트]**
+
+- [FoodEmissions](https://www.kaggle.com/datasets/amandaroseknudsen/foodproductemissions)
+    - 음식 종류별 온실가스 배출량
+    - 육류별 자동차 주행거리
+- [GLEAM livestock emissions](https://www.kaggle.com/datasets/amandaroseknudsen/gleamlivestockemissions)
+    - 축산업에서 온실가스 종류별 배출량
+- [현대자동차 그랜저 CO2 배출량](https://bpms.kemco.or.kr:444/transport_2012/car/car_choice.aspx?serorigin=1&serecode=100&serfuel=&sergear=&sercartype=&sergrade=&sertypegb=&sertab=&otype=&ptype=&f=system&sermileage1=&sermileage2=&serco21=&serco22=&seramt1=&seramt2=&sermname=&serstyear=#search_top)
+- [한국 연도별 육류 소비량](http://www.kmta.or.kr/kr/data/stats_spend.php)
+    - 연도별 / 종류별 전체소비량
+    - 연도별 / 종류별 1인당소비량
+
+**[비건 식당 지도 데이터세트]**
+
+- [서울시 채식전문/가능 식당](https://www.data.go.kr/data/15054128/fileData.do)
+    - 식당이름, 장소, 채식가능/채식전문, 업종(한식, 중식, 양식… etc)
+<br /><br />
+
+
+## 3. 기술스택
+
+**데이터분석**
+
+- jupyter notebook에서 python, numpy, matplotlib 등 사용해 데이터 분석
+
+**프론트엔드**
+
+- React, TypeScript, Recoil, styled-components
+- Chart.js(react-chartjs-2) 라이브러리 사용해 데이터 시각화
+- 카카오맵 API 사용하여 지도 구현
+
+**백엔드**
+
+- Django, Django REST Framework, dj_rest_auth
+- MySQL(ERD Cloud 사용하여 설계,Oracle Cloud 사용하여 구축)
+<br /><br />
+
+
+## 4. 프로젝트 기능 설명
 
 ### 주요기능
 
@@ -88,7 +89,7 @@ Veganner는 일상에서 육류 식단 대신 채식을 실천하면, 환경보�
 객관적인 데이터 지표를 확인하며, 유저는 비건 식단의 실천으로 환경보호에 동참하고 있음을 느낄 수 있습니다.
 <br /><br />
 
-## 4. 프로젝트 팀원 역할 분담
+## 5. 프로젝트 팀원 역할 분담
 
 | 이름 | 담당 업무 |
 | --- | --- |
