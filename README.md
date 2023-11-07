@@ -2,7 +2,7 @@
 
 “지구를 위한 채식 실천, 비거너에서 함께해요!”<br />
 비건 식당과 레시피를 공유하고, 지도에서 비건 식당 정보를 찾아볼 수 있는 웹사이트
-
+<br />
 
 ## 1. 프로젝트 소개
 
@@ -10,16 +10,13 @@
 
 **[메인, 소개페이지에서 사용할 육류, 자동차, 온실가스 관련 데이터 세트]**
 
-- [FoodEmissions](https://www.kaggle.com/datasets/amandaroseknudsen/foodproductemissions](https://www.kaggle.com/datasets/amandaroseknudsen/foodproductemissions)
+- [FoodEmissions](https://www.kaggle.com/datasets/amandaroseknudsen/foodproductemissions)
     - 음식 종류별 온실가스 배출량
     - 육류별 자동차 주행거리
-- GLEAM livestock emissions
-    - [https://www.kaggle.com/datasets/amandaroseknudsen/gleamlivestockemissions](https://www.kaggle.com/datasets/amandaroseknudsen/gleamlivestockemissions)
+- [GLEAM livestock emissions](https://www.kaggle.com/datasets/amandaroseknudsen/gleamlivestockemissions)
     - 축산업에서 온실가스 종류별 배출량
-- 현대자동차 그랜저 CO2 배출량
-    - [https://bpms.kemco.or.kr:444/transport_2012/car/car_choice.aspx?serorigin=1&serecode=100&serfuel=&sergear=&sercartype=&sergrade=&sertypegb=&sertab=&otype=&ptype=&f=system&sermileage1=&sermileage2=&serco21=&serco22=&seramt1=&seramt2=&sermname=&serstyear=#search_top](https://bpms.kemco.or.kr:444/transport_2012/car/car_choice.aspx?serorigin=1&serecode=100&serfuel=&sergear=&sercartype=&sergrade=&sertypegb=&sertab=&otype=&ptype=&f=system&sermileage1=&sermileage2=&serco21=&serco22=&seramt1=&seramt2=&sermname=&serstyear=#search_top)
-- 한국 연도별 육류 소비량
-    - [http://www.kmta.or.kr/kr/data/stats_spend.php](http://www.kmta.or.kr/kr/data/stats_spend.php)
+- [현대자동차 그랜저 CO2 배출량](https://bpms.kemco.or.kr:444/transport_2012/car/car_choice.aspx?serorigin=1&serecode=100&serfuel=&sergear=&sercartype=&sergrade=&sertypegb=&sertab=&otype=&ptype=&f=system&sermileage1=&sermileage2=&serco21=&serco22=&seramt1=&seramt2=&sermname=&serstyear=#search_top)
+- [한국 연도별 육류 소비량](http://www.kmta.or.kr/kr/data/stats_spend.php)
     - 연도별 / 종류별 전체소비량
     - 연도별 / 종류별 1인당소비량
 
@@ -28,6 +25,7 @@
 - 서울시 채식전문/가능 식당
     - [https://www.data.go.kr/data/15054128/fileData.do](https://www.data.go.kr/data/15054128/fileData.do)
     - 식당이름, 장소, 채식가능/채식전문, 업종(한식, 중식, 양식… etc)
+<br />
 
 ### 기술스택
 
@@ -45,7 +43,7 @@
 
 - Django, Django REST Framework, dj_rest_auth
 - MySQL(ERD Cloud 사용하여 설계,Oracle Cloud 사용하여 구축)
-
+<br />
 
 ## 2. 프로젝트 목표
 
@@ -70,7 +68,7 @@
 함께하는 비건라이프를 주제로 비건 식당과 레시피를 공유하고, 지도에서 비건 식당을 찾아볼 수 있는 웹사이트를 개발하게 되었습니다.
 
 Veganner는 일상에서 육류 식단 대신 채식을 실천하면, 환경보호에 동참할 수 있다는 가치를 전달하고자 합니다.
-
+<br />
 
 ## 3. 프로젝트 기능 설명
 
@@ -90,7 +88,7 @@ Veganner는 일상에서 육류 식단 대신 채식을 실천하면, 환경보�
 ### 프로젝트만의 차별점, 기대 효과
 다른 비건 관련 웹사이트와는 다르게 데이터분석을 시각화하여, 육류 소비가 환경에 악영향을 끼친다는 메시지를 유저에게 보다 효과적으로 전달합니다.<br />
 객관적인 데이터 지표를 확인하며, 유저는 비건 식단의 실천으로 환경보호에 동참하고 있음을 느낄 수 있습니다.
-
+<br />
 
 ## 4. 프로젝트 팀원 역할 분담
 
