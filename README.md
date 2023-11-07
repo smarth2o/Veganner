@@ -22,10 +22,8 @@
 
 **[비건 식당 지도 데이터세트]**
 
-- 서울시 채식전문/가능 식당
-    - [https://www.data.go.kr/data/15054128/fileData.do](https://www.data.go.kr/data/15054128/fileData.do)
+- [서울시 채식전문/가능 식당](https://www.data.go.kr/data/15054128/fileData.do)
     - 식당이름, 장소, 채식가능/채식전문, 업종(한식, 중식, 양식… etc)
-<br />
 
 ### 기술스택
 
